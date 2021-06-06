@@ -35,7 +35,7 @@ jobs:
           libncursesw5-dev libssl-dev python python2.7-dev python3 unzip wget \
           python3-distutils python3-setuptools rsync subversion swig time \
           xsltproc zlib1g-dev 
-          git clone https://github.com/infiWang/openwrt.git -b cr660x
+          git clone https://github.com/hilaolu/openwrt.git -b cr660x
           cd openwrt/package
           git clone https://github.com/jerrykuku/luci-theme-argon.git
           cd ..
