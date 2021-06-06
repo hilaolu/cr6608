@@ -43,3 +43,8 @@ jobs:
           ./scripts/feeds update -a
           ./scripts/feeds install -a
           make -j2 V=s
+      
+      - uses: actions/upload-artifact@v2
+        with:
+          name: my-artifact
+          path: bin
