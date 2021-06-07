@@ -39,7 +39,7 @@ jobs:
           cd openwrt/package
           git clone https://github.com/jerrykuku/luci-theme-argon.git
           cd ..
-          wget https://gist.githubusercontent.com/hilaolu/2615e7afa477c8e164f6b179cb9dc5ec/raw/3120dd684b16d886c1942c3c90014bca217031ee/.config
+          wget https://gist.githubusercontent.com/hilaolu/2615e7afa477c8e164f6b179cb9dc5ec/raw/b1a95ccae668b8a5db379ee5b0b1e45437c3f48d/.config
           ./scripts/feeds update -a
           ./scripts/feeds install -a
           make -j2 V=s
